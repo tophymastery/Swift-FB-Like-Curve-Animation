@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'git@github.com:tophymastery/Swift-FB-Like-Curve-Animation.git'
+        git 'https://github.com/tophymastery/Swift-FB-Like-Curve-Animation.git'
       }
     }
   }
